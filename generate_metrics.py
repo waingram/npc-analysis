@@ -31,7 +31,7 @@ def main():
     npc_confusion.fill(1)
     # print(npc_confusion)
 
-    filename = '/Users/waingram/Projects/npc-analysis/results/npc_analysis.txt'
+    filename = '/data/npc_analysis.txt'
     f = open(filename, 'r')
 
     for lines in f:

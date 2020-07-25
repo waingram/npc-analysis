@@ -33,7 +33,7 @@ public class NeuralParsCitEvaluation {
             String npcPath = "/Users/waingram/Projects/npc-analysis/data/neural_parscit_parsed_citations.txt";
 
             String pathCitations = "/Users/waingram/Projects/npc-analysis/data/sample17-ran100-v2/sample17-ran100-v2.citestr_combined.txt";
-            String pathResult = "results/npc_analysis.txt";
+            String pathResult = "data/npc_analysis.txt";
 
             Path citationsFile = Paths.get(pathCitations);
             Path npcFile = Paths.get(npcPath);

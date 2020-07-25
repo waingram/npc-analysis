@@ -1,0 +1,1 @@
+Rosenblatt. J. and Payton. D. (1989). A fine-grained alternative to the subsumption architecture for mobile robot control. In Proc. o f the IEEE/INNS International Joint Conference on Neural Networks, pages 317-324. Washington DC. IEEE.

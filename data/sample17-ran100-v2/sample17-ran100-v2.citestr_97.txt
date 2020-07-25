@@ -1,0 +1,1 @@
+42. LeVeque, R. J., “Wave propagation algorithms for multi-dimensional hyperbolic systems,” J. Comput. Phys., Vol. 131, 1997, pp. 327-353.

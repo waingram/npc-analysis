@@ -1,0 +1,1 @@
+32. Lax, P. D., “Weak Solutions of Nonlinear Hyperbolic Equations and Their Numerical Computation,” Comm. Pure. Appl. Math., Vol 11, 1954, pp.159-193.

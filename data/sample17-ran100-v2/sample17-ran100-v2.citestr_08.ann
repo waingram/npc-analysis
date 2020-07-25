@@ -1,0 +1,9 @@
+T1	authors 0 29	Rosenblatt. J. and Payton. D.
+T2	year_extra 30 31	(
+T3	year 31 35	1989
+T4	year_extra 35 37	).
+T6	booktitle 123 200	In Proc. o f the IEEE/INNS International Joint Conference on Neural Networks,
+T7	pages 201 215	pages 317-324.
+T8	address 216 230	Washington DC.
+T9	publisher 231 236	IEEE.
+T5	title 38 122	A fine-grained alternative to the subsumption architecture for mobile robot control.

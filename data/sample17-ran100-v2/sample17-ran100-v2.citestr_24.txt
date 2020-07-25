@@ -1,0 +1,1 @@
+7. Chakravarty, S.R. and Osher, S., “Numerical Experiments with the Osher Upwind Scheme for the Euler Equations,”, AIAA Journal, Vol. 21, No. 11, 1983, pp. 1241-1248

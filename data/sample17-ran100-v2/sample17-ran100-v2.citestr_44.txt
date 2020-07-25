@@ -1,0 +1,1 @@
+41. LeVeque, R. J., “Balancing Source Terms and Flux Gradients in High-Resolution Godunov Methods,” J. Comput. Phys., Vol. 146, 1998, pp.346-365.

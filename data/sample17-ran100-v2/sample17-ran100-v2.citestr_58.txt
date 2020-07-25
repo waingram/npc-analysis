@@ -1,0 +1,1 @@
+[21] A. V. Fiacco and G. P. McCormick. Computational algorithm for the sequential unconstrained minimization technique for nonlinear programming. Management Science, 10:360–366, 1964.

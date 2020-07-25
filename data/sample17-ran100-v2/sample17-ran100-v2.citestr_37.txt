@@ -1,0 +1,1 @@
+[57] P. A. Cundall and O. D. L. Strack. A discrete numerical model for granular assemblies.  Géotechnique, 29:47–65, 1979.

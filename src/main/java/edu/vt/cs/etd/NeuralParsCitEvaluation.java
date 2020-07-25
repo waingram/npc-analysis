@@ -1,12 +1,7 @@
 package edu.vt.cs.etd;
 
 import com.google.common.collect.ImmutableSet;
-import org.apache.lucene.analysis.Analyzer;
-import org.apache.lucene.analysis.TokenStream;
-import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 
-import java.io.IOException;
-import java.io.StringReader;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -58,8 +53,6 @@ public class NeuralParsCitEvaluation {
 
                 if (index == 2) index++;
 
-                List<String> referenceTokens = Arrays.asList(reference.split("\\s+"));
-
                 Path annPath = Paths.get(citationsFile.getParent().toString(),
                         citationsFile.getFileName().toString()
                                 .replace("combined", String.format("%02d", index++))
@@ -88,9 +81,6 @@ public class NeuralParsCitEvaluation {
                             String[] npcTokens = npcIterator.next().split("\t");
                             String predictedValue = npcTokens[0];
                             String predictedLabel = npcTokens[1];
-                            if (predictedValue.equals("(1)")) {
-                                boolean t = true;
-                            }
 
                             if (!FIELDS.contains(trueLabel)) continue;
 

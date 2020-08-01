@@ -3,7 +3,6 @@
 Evaluate citation extracting
 """
 import numpy as np
-from sklearn.metrics import f1_score, precision_score, recall_score
 
 __author__ = "William A. Ingram"
 __version__ = "0.1.0"
@@ -31,7 +30,7 @@ def main():
     npc_confusion.fill(1)
     # print(npc_confusion)
 
-    filename = '/data/npc_analysis.txt'
+    filename = '../results/npc_analysis.txt'
     f = open(filename, 'r')
 
     for lines in f:

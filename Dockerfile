@@ -4,13 +4,14 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
-        default-jdk \
-        maven \
+        default-jdk=2:1.11-68ubuntu1~18.04.1 \
+        maven=3.6.0-1~18.04.1 \
     && rm -rf /var/lib/apt/lists/*
 
 RUN conda install -y \
-        scikit-learn \
+        jupyter==1.0.0 \
+        scikit-learn==0.23.1 \
     && conda clean -ya
 
-COPY pom.xml /tmp
-RUN cd /tmp && mvn package && rm -rf /tmp/target
+COPY postInstall /
+RUN /postInstall

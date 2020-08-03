@@ -14,11 +14,12 @@ To run the code you'll need:
 - Java JDK > v.8
 - Maven
 - Python > v.3
+- Jupyter
 - scikit-learn.metrics 
 
 ## Data
 
-The `data` director contains a set of 100 gold standard annotated citation strings, along with the output of (an early version of) NPC applied to the 100 citation strings. 
+The `data` directory contains a set of 100 gold standard annotated citation strings, along with the output of (an early version of) NPC applied to the 100 citation strings. 
 
 ## LICENSE
 
